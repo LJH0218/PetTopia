@@ -162,13 +162,13 @@
 		                        	<div class="categoryBox">
 		                        		<label for="boardCategory">말머리</label>
 			                        		<select id="boardCategory" name="category"  class="form-select border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200">
-												<option value="" ${boardCategory == '' ? 'selected' : ''}>전체</option>
-												<option value="SG" ${boardCategory == 'SG' ? 'selected' : ''}>건의사항</option>
-												<option value="DS" ${boardCategory == 'DS' ? 'selected' : ''}>토론</option>
-												<option value="CT" ${boardCategory == 'CT' ? 'selected' : ''}>잡담</option>
-												<option value="IN" ${boardCategory == 'IN' ? 'selected' : ''}>정보</option>
-												<option value="QA" ${boardCategory == 'QA' ? 'selected' : ''}>질문</option>
-												<option value="CP" ${boardCategory == 'CP' ? 'selected' : ''}>칭찬</option>
+												<option value="">전체</option>
+												<option value="SG">건의사항</option>
+												<option value="DS">토론</option>
+												<option value="CT">잡담</option>
+												<option value="IN">정보</option>
+												<option value="QA">질문</option>
+												<option value="CP">칭찬</option>
 											</select>
 								</div>
 			                        <div class="titleBox">
