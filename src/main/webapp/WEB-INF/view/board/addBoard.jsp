@@ -194,9 +194,7 @@
 				                        		<button type="button" class="text-red-500 cancel-btn bg-white btn hover:text-red-500 hover:bg-red-100 focus:text-red-500 focus:bg-red-100 active:text-red-500 active:bg-red-100 dark:bg-zink-700 dark:hover:bg-red-500/10 dark:focus:bg-red-500/10 dark:active:bg-red-500/10">파일삭제</button>
 		                        			</div>
 		                        		</div>
-			                        
-		                        	
-                        			</div>
+		                        	</div>
 	                        	</div>
                         	</div>
                         	<!-- boardContent 종료 -->

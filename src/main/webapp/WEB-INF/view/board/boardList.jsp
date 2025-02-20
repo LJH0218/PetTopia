@@ -256,6 +256,7 @@
 <!-- App js -->
 <script src="${pageContext.request.contextPath}/assets/js/app.js"></script>
 <script>
+
 $(document).ready(function(){
     // #boardCategory가 변경될 때
     $('#boardCategory').change(function(){
@@ -269,7 +270,7 @@ $(document).ready(function(){
         $('#formCategory').submit();
     });
 });
-</script>
+
 </script>
 </body>
 

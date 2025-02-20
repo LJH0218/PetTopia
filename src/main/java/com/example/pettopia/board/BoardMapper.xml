@@ -173,7 +173,7 @@ WHERE
 	
 	
 	<!-- 게시글 작성 쿼리 /board/addBoard 작업자 : 이준호 -->
-	<insert id="insertBoard" parameterType="com.example.pettopia.vo.Board">
+<insert id="insertBoard" parameterType="com.example.pettopia.vo.Board">
   <selectKey resultType="Integer" keyProperty="boardNo" order="AFTER">
     SELECT LAST_INSERT_ID()
   </selectKey>
